@@ -1,0 +1,36 @@
+{
+ "acKind": "ImageManifest",
+ "acVersion": "0.5.1",
+ "name": "openwrt",
+ "labels": [
+  {
+   "name": "version",
+   "value": "latest"
+  },
+  {
+   "name": "os",
+   "value": "linux"
+  },
+  {
+   "name": "arch",
+   "value": "amd64"
+  }
+ ],
+ "app": {
+  "exec": [
+   "\/bin\/sh"
+  ],
+  "user": "0",
+  "group": "0"
+ },
+ "annotations": [
+  {
+   "name": "authors",
+   "value": "Stéphane Travostino <steph@combo.cc>"
+  },
+  {
+   "name": "created",
+   "value": "2015-06-03T14:14:08Z"
+  }
+ ]
+}
